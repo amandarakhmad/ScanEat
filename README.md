@@ -14,5 +14,5 @@ ScanEat is a web-based app designed to help consumers make the best nutritional 
 
 
 
-
+# 
 <p align="left" > Team C242-PR635 <br> Capstone Project for Bangkit 2024 Batch 2 </p>
