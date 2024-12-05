@@ -12,6 +12,6 @@ ScanEat is a web-based app designed to help consumers make the best nutritional 
 | Andrew Haposan Indrajaya | C008B4KY0527  |  Cloud Computing  |  |[LinkedIn](https://www.linkedin.com/in/) or [Github](https://github.com/) |
 
 
-Capstone Project for Bangkit 2024 Batch 2 by Team C242-PR635
+
 
 <p align="left" > Team C242-PR635 <br> Capstone Project for Bangkit 2024 Batch 2 </p>
