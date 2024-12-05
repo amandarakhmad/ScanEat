@@ -6,7 +6,7 @@ Capstone Project for Bangkit 2024 Batch 2 by Team C242-PR635
 
 ## Team Members 
 |            Member           | Student ID |        Path        |                    Role                    |                                                       Contacts                                                      |
-| :-------------------------: | :--------: | :----------------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| :------------------------------: | :--------: | :----------------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
 | Amanda Fharadita Olivia Rakhmad| M180B4KX0452  |  Machine Learning  | Project Manager, Machine Learning Engineer |[LinkedIn](https://www.linkedin.com/in/amandarakhmad/) or [Github](https://github.com/amandarakhmad) |
 | I Putu Aditya Cahya Milano | C113B4KY1869  |  Cloud Computing  |  |[LinkedIn](https://www.linkedin.com/in/) or [Github](https://github.com/) |
 | Muhammad Noor Abdi Ash Shafary | C467B4KY2972 |  Cloud Computing  |  |[LinkedIn](https://www.linkedin.com/in/) or [Github](https://github.com/) |
