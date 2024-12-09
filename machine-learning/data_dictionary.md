@@ -14,7 +14,8 @@ This document provides detailed descriptions of the variables used in the projec
 | `Height`            | Float       | Height of the user                            | Centimeters (e.g., 170.0)      |
 | `Actual BMI`        | Float       | BMI of the user calculated with (W/(H)**2     | Numeric value (e.g., 22.5)     |
 | `Predicted BMI`     | Float       | BMI of the user calculated with the BMI model | Numeric value (e.g., 22.5)     |
-| `BMI Status`        | Categorical | VMI status of yhe user                        | 'Underweight', 'Healtht Weigt', 'Overweight', 'Class 1 Obesity', 'Class 2 Obesity', 'Class 3 Obesity' |     |
+| `BMI Status`        | Categorical | VMI status of yhe user                        | 'Underweight', 'Healtht Weigt', 'Overweight', 'Class 1 Obesity', 'Class 2 Obesity', 'Class 3 Obesity' |     
+| `Nutritional Intake`| Float        | User's Daily Nutritional Intake              | Numeric value (e.g, 1000.0, 1500.1)    |
 
 
 ## Product Information
@@ -34,4 +35,5 @@ This document provides detailed descriptions of the variables used in the projec
 | Variable Name       | Data Type   | Description                                    | Possible Values/Units          |
 |---------------------|-------------|------------------------------------------------|--------------------------------|
 | `Predicted BMI`     | Float       | Predicted BMI for the user                     | Numeric value (e.g., 22.5)     |
+| `Predicted Nutritional Intake `   |         | User's date of birth                          | `YYYY-MM-DD` format            |
 | `recommended_products` | List[String] | List of recommended products for the user   | List of product names          |
