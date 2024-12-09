@@ -8,12 +8,14 @@ This document provides detailed descriptions of the variables used in the projec
 |---------------------|-------------|------------------------------------------------|--------------------------------|
 | `user_id`           | Integer     | Unique identifier for the user                | Unique ID (e.g., 1, 2, 3)      |
 | `name`              | String      | Name of the user                              | Any text                       |
-| `sex`               | Categorical | Biological sex of the user                    | `Male`, `Female`, `Other`      |
+| `sex`               | Categorical | Biological sex of the user                    | `Male`, `Female`               |
 | `birthdate`         | Date        | User's date of birth                          | `YYYY-MM-DD` format            |
-| `age`               | Integer     | Age of the user (calculated from birthdate)   | Positive integers (e.g., 18)   |
-| `weight`            | Float       | Weight of the user                            | Kilograms (e.g., 65.5)         |
-| `height`            | Float       | Height of the user                            | Centimeters (e.g., 170.0)      |
-| `bmi`               | Float       | Body Mass Index of the user (calculated)      | Numeric value (e.g., 22.5)     |
+| `Weight`            | Float       | Weight of the user                            | Kilograms (e.g., 65.5)         |
+| `Height`            | Float       | Height of the user                            | Centimeters (e.g., 170.0)      |
+| `Actual BMI`        | Float       | BMI of the user calculated with (W/(H)**2     | Numeric value (e.g., 22.5)     |
+| `Predicted BMI`     | Float       | BMI of the user calculated with the BMI model | Numeric value (e.g., 22.5)     |
+| `BMI Status`        | Categorical | VMI status of yhe user                        | 'Underweight', 'Healtht Weigt', 'Overweight', 'Class 1 Obesity', 'Class 2 Obesity', 'Class 3 Obesity' |     |
+
 
 ## Product Information
 
@@ -31,5 +33,5 @@ This document provides detailed descriptions of the variables used in the projec
 
 | Variable Name       | Data Type   | Description                                    | Possible Values/Units          |
 |---------------------|-------------|------------------------------------------------|--------------------------------|
-| `predicted_bmi`     | Float       | Predicted BMI for the user                    | Numeric value (e.g., 22.5)     |
+| `Predicted BMI`     | Float       | Predicted BMI for the user                     | Numeric value (e.g., 22.5)     |
 | `recommended_products` | List[String] | List of recommended products for the user   | List of product names          |
